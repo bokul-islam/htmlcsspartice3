@@ -120,4 +120,37 @@ td:nth-child(odd){
         padding-bottom: 20px;
         line-height: 30px;
     }
+    .container{
+        height: 100%;
+        width: 100%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        box-shadow: 1px 2px 5px hsl(0, 1%, 57%);
+    }
+}
+@media screen and (max-width:450px) {
+    .pre_section{
+        margin: 10px;
+        background-color:  hsl(30, 54%,90%);
+        border-radius: 10px;
+    }
+    .ingre_section{
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .ins_section{
+        margin: 10px;
+    }
+    .ins_section ol{
+        list-style-position:inside;
+        padding-bottom: 20px;
+        line-height: 30px;
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        box-shadow: 1px 2px 5px hsl(0, 1%, 57%);
+    }
 }
